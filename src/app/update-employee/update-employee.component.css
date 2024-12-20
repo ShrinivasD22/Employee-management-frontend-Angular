@@ -1,0 +1,62 @@
+/* Add this CSS to your component's styles or your global styles */
+
+/* Style for the form-group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style for the label */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Style for the input */
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the date picker toggle button */
+/* mat-datepicker-toggle {
+    cursor: pointer;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+   */
+/* Style for the date picker */
+mat-datepicker {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Style for the date picker calendar */
+.mat-calendar {
+  max-width: 250px;
+}
+
+/* Style for the selected date */
+.mat-calendar-body-selected {
+  background-color: #007BFF;
+  /* Customize the background color for selected date */
+  color: #fff;
+  /* Customize the text color for selected date */
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  margin-top: 10px;
+  background-color: #0056b3;
+  padding: 0px 0;
+  text-align: center;
+
+
+}

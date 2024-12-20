@@ -1,0 +1,39 @@
+/* Apply styling to the navigation bar */
+.navbar {
+    background-color: #007bff !important; /* Adjust the background color as needed */
+}
+
+.nav-link {
+    color: #fff !important; /* Adjust the text color as needed */
+}
+
+.nav-link:hover {
+    color: #0056b3 !important; /* Adjust the hover color as needed */
+}
+
+/* Style the main content container */
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #ec2e2e;
+    text-size-adjust: inherit ;
+    text-emphasis: unset; /* Adjust the text color as needed */
+}
+
+/* Style the footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    margin-top: 10px;
+    background-color: #0056b3; 
+    padding: 0px 0;
+    text-align: center;
+   
+    
+}
+
+
+
+

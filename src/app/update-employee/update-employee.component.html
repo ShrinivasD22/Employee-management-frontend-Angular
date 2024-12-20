@@ -1,0 +1,47 @@
+<div class="col-md-6 offset-md-3">
+  <h2>Update Employee</h2>
+  <form (ngSubmit)="onSubmit()" #employeeForm="ngForm">
+      <!-- ID (Hidden) -->
+      <input type="hidden" [(ngModel)]="employee.id" name="id">
+
+      <!-- Name -->
+      <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" required [(ngModel)]="employee.name" name="name"
+              placeholder="Enter employee name">
+      </div>
+
+      <!-- Email -->
+      <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" required [(ngModel)]="employee.email" name="email"
+              placeholder="Enter employee email">
+      </div>
+
+      <!-- Position -->
+      <div class="form-group">
+          <label for="position">Position</label>
+          <input type="text" class="form-control" id="position" required [(ngModel)]="employee.position" name="position"
+              placeholder="Enter employee position">
+      </div>
+
+      <!-- Salary -->
+      <div class="form-group">
+          <label for="salary">Salary</label>
+          <input type="number" class="form-control" id="salary" required [(ngModel)]="employee.salary" name="salary"
+              placeholder="Enter employee salary">
+      </div>
+
+      <!-- Department ID -->
+      <div class="form-group">
+          <label for="departmentId">Department ID</label>
+          <input type="text" class="form-control" id="departmentId" required [(ngModel)]="employee.departmentId"
+              name="departmentId" placeholder="Enter department ID (e.g., dept01)">
+      </div>
+
+      <!-- Submit Button -->
+      <div class="mt-3">
+          <button class="btn btn-success" type="submit">Update Employee</button>
+      </div>
+  </form>
+</div>

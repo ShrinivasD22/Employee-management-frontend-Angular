@@ -1,0 +1,22 @@
+.content{
+    text-align: justify;
+}
+.center{
+    display: block;
+    margin-left: 20px;
+    /* margin-right: auto; */
+    width: 50%;
+}
+button{
+    align-items: center;
+    margin-left: 5%;
+}
+.mat-paginator{
+    align-content: flex-end;
+}
+.square-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover; /* Ensures the image covers the entire box without stretching */
+  }
+  
